@@ -1,3 +1,17 @@
 /* 
     General Styles used on every website (Don't Repeat Yourself)
 */
+.delete-icon {
+    transition: all 0.3s ease-in-out;
+    font-size: 1.2rem;
+    color: red;
+  }
+  
+  .delete-icon:hover {
+    transform: scale(1.2); /* Aumenta el tamaño */
+    color: darkred; /* Oscurece el color */
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo oscuro */
+     /* 
+    border-radius: 50%; /* Para hacer el fondo más visible 
+     padding: 5px; */
+  }
