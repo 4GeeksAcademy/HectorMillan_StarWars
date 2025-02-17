@@ -10,7 +10,7 @@ export const Footer = () => {
 			<p>
 				Made with <i className="fa fa-heart text-danger" /> by{" "}
 				<a href="https://github.com/hectormillan">Héctor Millán</a>
-				<spam> for 4GeekAcademy </spam>
+				<span> for 4GeekAcademy </span>
 			</p>
 		</footer>
 	);

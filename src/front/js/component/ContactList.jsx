@@ -53,8 +53,8 @@ export const ContactList = () => {
 
                 {/* recorre el array contact usando la función map(); */}
                 {/* loop through the contact array using the map() function; */}
-                {store.contact.map((iterator) =>
-                    <li className="list-group-item d-flex justify-content-center">
+                {store.contact.map((iterator, index) =>
+                    <li key={index} className="list-group-item d-flex justify-content-center">
                         <div className="d-flex align-items-center w-75">
                             <div className="col-md-3 d-flex justify-content-center">
                                 <img

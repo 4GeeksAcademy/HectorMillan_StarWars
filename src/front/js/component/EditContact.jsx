@@ -18,7 +18,8 @@ export const EditContact = () => {
     const [email, setEmail] = useState(store.selectedContact.email);
     const [address, setAddress] = useState(store.selectedContact.address);
     
-    
+    let id = store.selectedContact.id;
+
     function saveContact(e) {
 
         // Evita los campos estén vacios antes de guardar. 
@@ -35,7 +36,7 @@ export const EditContact = () => {
             phone: phone,
             email: email,
             address: address,
-            id: store.selectedContact.id
+            id: id
         };
              
       

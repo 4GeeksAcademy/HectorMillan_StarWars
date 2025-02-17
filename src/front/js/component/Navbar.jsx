@@ -37,9 +37,9 @@ export const Navbar = () => {
 				</div>
 			
 				<div className="d-flex col col-lg-6 justify-content-end align-items-center">
-					<spam className={store.user ? "ms-2 align-items-center":"d-none" }>Bienvenido:</spam>
-					<spam className={store.user ? "text-primary ms-2 align-item-center":"d-none" }>{store.user}</spam>
-					<spam  className= "ms-2 align-items-center" ><button className="btn btn-primary" onClick={desLoguearse} >{store.isLogged ? 'Logout' : 'Login'}</button></spam>
+					<span className={store.user ? "ms-2 align-items-center":"d-none" }>Bienvenido:</span>
+					<span className={store.user ? "text-primary ms-2 align-item-center":"d-none" }>{store.user}</span>
+					<span  className= "ms-2 align-items-center" ><button className="btn btn-primary" onClick={desLoguearse} >{store.isLogged ? 'Logout' : 'Login'}</button></span>
 					
 					
 					
